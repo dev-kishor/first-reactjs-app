@@ -1,0 +1,41 @@
+.result_box {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  box-shadow: inset 0px 0px 10px 2px rgb(201, 200, 200);
+  border-radius: 2px;
+  background-color: white;
+}
+.result_box div {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.button_box {
+  display: flex;
+  width: 200px;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+}
+.button_box .buttons {
+  margin-top: 10px;
+}
+.button_box .buttons button {
+  width: 80px;
+  height: 30px;
+  background-color: black;
+  font-weight: 900;
+  font-size: 20px;
+  color: white;
+  border-radius: 2px;
+  border: 1px solid black;
+  box-shadow: 0px 0px 10px 2px rgb(71, 68, 68);
+  transition: 0.3 ease-in;
+}
+.button_box .buttons button:hover,
+.button_box .buttons button:focus {
+  box-shadow: inset 0px 0px 10px 2px rgb(24, 22, 22);
+}
